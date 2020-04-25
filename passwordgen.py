@@ -3,7 +3,7 @@ import json
 
 def salvarSenha(senha):
 	nome = input("Nome do arquivo: ")
-	tipo = input("json ou txt ?")
+	tipo = input("json ou txt ?: ")
 	
 	nome = nome.replace(" ","")
 	tipo = tipo.replace(" ","")
