@@ -45,7 +45,7 @@ def gerarSenha(tamanho,tipo):
 	elif tipo == "complexo":
 		caracteres = "1234567890QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm#$&_-?@()=+!':%/\",.~[]{}<>;"
 		
-	elif tipo == "normal" or " ":
+	elif tipo == "normal":
 		caracteres = "1234567890QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"
 		
 	else:
